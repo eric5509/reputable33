@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-size: 13px;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.navHeight {
+  height: calc(100vh - 80px);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.vertical-rl {
+  writing-mode: vertical-rl;
+}
+.vertical-lr {
+  writing-mode: vertical-lr;
+}
+
+.textGradient {
+  background-image: linear-gradient(90deg, blue, red);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.textGradient2 {
+  background-image: linear-gradient(90deg,red, blue);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.bgGradient {
+  background-image: linear-gradient(90deg, pink, purple);
+}
+
+.parentContainer {
+  max-width: 1250px ;
+  width: 100%;
+  margin-inline: auto
+}
+
+.center {
+  display: flex; 
+  align-items:  center;
+  justify-content: center;
+}
+
+.padding {
+  padding-inline: 16px;
+}
+
+@media (min-width: 1280px) {
+  .padding {
+      padding-left: 0px;
+      padding-right: 0px;
+  }
+}
+
+.animate1 {
+  animation: 30s slide infinite linear;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.animate2 {
+  animation: 35s slide2 infinite linear;
+}
+
+@keyframes slide2 {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+
+.textGradient3 {
+  -webkit-text-fill-color: rgb(0, 0, 0);
+  -webkit-text-stroke: 3px #fafd57;
+  background-clip: text;
+  font-size: 150px;
+  -webkit-background-clip: text;
+}
+
+.gradient1{
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(252 211 77));
+}
+
+.glass {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), 0 -2px 6px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+
+.neon{
+  background-color: rgba(0, 26, 255, 0.5)
+}
+
+.glass1 {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.75), 0 -2px 6px rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(200px);
+  -webkit-backdrop-filter: blur(100px);
+}
