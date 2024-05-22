@@ -70,27 +70,27 @@ export default function Speak() {
               viewport={{ once: true }}
               className="h-56 w-56 overflow-hidden rounded-xl"
             >
-              <Image
+              {/* <Image
                 alt=""
                 unoptimized
                 width={0}
                 height={0}
                 src={`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiXGxICs0sQodC0AqsjE5TeR28Zs3ejfsnYbd-FGGgFQ&s`}
                 className="h-full w-full object-cover"
-              />
+              /> */}
             </motion.div>
             <motion.p
               viewport={{ once: true }}
               variants={variantsChild}
               className="font-bold text-xl"
             >
-              Praven BABU
+              
             </motion.p>
             <motion.p viewport={{ once: true }} variants={variantsChild}>
               Founder and CEO at <b>Reputable</b>
             </motion.p>
             <motion.p viewport={{ once: true }} variants={variantsChild}>
-              (Mumbai, India office)
+              (Location, Head Office)
             </motion.p>
             <motion.div
               viewport={{ once: true }}

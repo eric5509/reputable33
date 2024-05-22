@@ -95,7 +95,7 @@ export default function Hero() {
               viewport={{ once: true }}
               className="text-sm"
             >
-              We help promisiry early stage projects grow from rods in an everchanging crypto ecosystem. Our launch model offers full time support to project teams who are shaping the decentralized future of Web3.
+              We help promising early stage projects grow from rods in an everchanging crypto ecosystem. Our launch model offers full time support to project teams who are shaping the decentralized future of Web3.
             </motion.p>
           </div>
           <div className="w-[90%] mt-3">

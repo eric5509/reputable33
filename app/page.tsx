@@ -14,7 +14,7 @@ export default function Home() {
     <main>
       <Hero />
       <Web3 />
-      <Marketing />
+      {/* <Marketing /> */}
       <Strategy />
       <Deliver />
       <Blog />

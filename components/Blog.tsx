@@ -22,7 +22,7 @@ export default function Blog() {
     {
       title: "Web3 Marketing Strategy",
       subtitle: "Full-stack digital marketing services",
-      text: "Lets make marketing strategy effortless.Our holistic strategy cover everything from product / exposure marketing, targeted investors / buyer reachouts, infrastructure. Wou will work with our amazing maarketing team to achieve your goals.",
+      text: "Lets make marketing strategy effortless. Our holistic strategy cover everything from product/exposure marketing, targeted investors/buyer reachouts, infrastructure. We will work with our amazing marketing team to achieve your goals.",
       position: "right",
       img: Img9,
       gradient: "linear-gradient(to right, green, purple)",
@@ -30,7 +30,7 @@ export default function Blog() {
     {
       title: "Build Discord and Telegram communities",
       subtitle: "Community Management",
-      text: "Product advisory / community development. After the raise, we are still here for the long journey ahead. We will provide expert advise on maintaining a successful launched, develope and grow your community from scratch and encorage the building of a fiercely loyal space.",
+      text: "Product advisory/community development. After the raise, we are still here for the long journey ahead. We will provide expert advise on maintaining a successful launched, develop and grow your community from scratch and encorage the building of a fiercely loyal space.",
       position: "left",
       img: Img10,
       gradient: "linear-gradient(to right, red, blue)",

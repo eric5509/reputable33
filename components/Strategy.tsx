@@ -42,7 +42,7 @@ export default function Strategy() {
       id="strategy"
     >
       <p className="text-2xl lg:text-[30px] w-full items-center justify-center gap-2 flex flex-wrap text-center">
-        {"Delivering marketing strategy across crypto companies"
+        {"Delivering on-point deal flow and strategy across the Crypto space"
           .split(" ")
           .map((data, key) => (
             <motion.span
